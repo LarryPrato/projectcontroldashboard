@@ -15,7 +15,7 @@ html_header="""
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <h1 style="font-size:300%; color:#008080; font-family:Georgia"> PROJECT CONTROL <br>
- <h2 style="color:#008080;"> DASHBOARD</h3> <br>
+ <h2 style="color:#008080; font-family:Georgia"> DASHBOARD</h3> <br>
  <hr style= "  display: block;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
