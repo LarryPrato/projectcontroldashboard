@@ -301,7 +301,7 @@ with st.beta_container():
                     {'range': [1, 1.5], 'color': '#3D9970'}]}))
 
         fig_cv.update_layout(paper_bgcolor="#fbfff0", font={'color': "#008080", 'family': "Arial"}, height=135, width=250,
-                             margin=dict(l=30, r=10, b=15, t=20))
+                             margin=dict(l=20, r=10, b=15, t=20))
         st.plotly_chart(fig_cv)
         st.markdown(html_card_footer6, unsafe_allow_html=True)
     with col3:
@@ -321,7 +321,7 @@ with st.beta_container():
                     {'range': [0, 1], 'color': '#FF4136'},
                     {'range': [1, 1.5], 'color': '#3D9970'}]}))
         fig_sv.update_layout(paper_bgcolor="#fbfff0", font={'color': "#008080", 'family': "Arial"}, height=135, width=250,
-                             margin=dict(l=30, r=10, b=15, t=20))
+                             margin=dict(l=20, r=10, b=15, t=20))
         st.plotly_chart(fig_sv)
         st.markdown(html_card_footer7, unsafe_allow_html=True)
     with col5:
@@ -643,7 +643,7 @@ with st.beta_container():
                     {'range': [1, 1.5], 'color': '#3D9970'}]}))
 
         fig_cv.update_layout(paper_bgcolor="#fbfff0", font={'color': "#008080", 'family': "Arial"}, height=135, width=250,
-                             margin=dict(l=30, r=10, b=15, t=20))
+                             margin=dict(l=20, r=10, b=15, t=20))
         st.plotly_chart(fig_cv)
         st.markdown(html_card_footer6, unsafe_allow_html=True)
     with col3:
@@ -663,7 +663,7 @@ with st.beta_container():
                     {'range': [0, 1], 'color': '#FF4136'},
                     {'range': [1, 1.5], 'color': '#3D9970'}]}))
         fig_sv.update_layout(paper_bgcolor="#fbfff0", font={'color': "#008080", 'family': "Arial"}, height=135, width=250,
-                             margin=dict(l=30, r=10, b=15, t=20))
+                             margin=dict(l=20, r=10, b=15, t=20))
         st.plotly_chart(fig_sv)
         st.markdown(html_card_footer7, unsafe_allow_html=True)
     with col5:
