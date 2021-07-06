@@ -95,7 +95,7 @@ with st.beta_container():
             delta={'position': "bottom", 'reference': 46, 'relative': False},
             domain={'x': [0, 1], 'y': [0, 1]}))
         fig_c1.update_layout(autosize=False,
-                             width=330, height=90, margin=dict(l=20, r=20, b=20, t=30),
+                             width=350, height=90, margin=dict(l=20, r=20, b=20, t=30),
                              paper_bgcolor="#fbfff0", font={'size': 20})
         st.plotly_chart(fig_c1)
         st.markdown(html_card_footer1, unsafe_allow_html=True)
@@ -110,7 +110,7 @@ with st.beta_container():
             delta={'position': "bottom", 'reference': 92700},
             domain={'x': [0, 1], 'y': [0, 1]}))
         fig_c2.update_layout(autosize=False,
-                             width=330, height=90, margin=dict(l=20, r=20, b=20, t=30),
+                             width=350, height=90, margin=dict(l=20, r=20, b=20, t=30),
                              paper_bgcolor="#fbfff0", font={'size': 20})
         fig_c2.update_traces(delta_decreasing_color="#3D9970",
                              delta_increasing_color="#FF4136",
@@ -129,7 +129,7 @@ with st.beta_container():
             delta={'position': "bottom", 'reference': 1, 'relative': False},
             domain={'x': [0, 1], 'y': [0, 1]}))
         fig_c3.update_layout(autosize=False,
-                             width=330, height=90, margin=dict(l=20, r=20, b=20, t=30),
+                             width=350, height=90, margin=dict(l=20, r=20, b=20, t=30),
                              paper_bgcolor="#fbfff0", font={'size': 20})
         fig_c3.update_traces(delta_decreasing_color="#3D9970",
                              delta_increasing_color="#FF4136",
@@ -300,7 +300,7 @@ with st.beta_container():
                     {'range': [0, 1], 'color': '#FF4136'},
                     {'range': [1, 1.5], 'color': '#3D9970'}]}))
 
-        fig_cv.update_layout(paper_bgcolor="#fbfff0", font={'color': "#008080", 'family': "Arial"}, height=135, width=215,
+        fig_cv.update_layout(paper_bgcolor="#fbfff0", font={'color': "#008080", 'family': "Arial"}, height=135, width=250,
                              margin=dict(l=45, r=10, b=15, t=20))
         st.plotly_chart(fig_cv)
         st.markdown(html_card_footer6, unsafe_allow_html=True)
@@ -320,7 +320,7 @@ with st.beta_container():
                 'steps': [
                     {'range': [0, 1], 'color': '#FF4136'},
                     {'range': [1, 1.5], 'color': '#3D9970'}]}))
-        fig_sv.update_layout(paper_bgcolor="#fbfff0", font={'color': "#008080", 'family': "Arial"}, height=135, width=215,
+        fig_sv.update_layout(paper_bgcolor="#fbfff0", font={'color': "#008080", 'family': "Arial"}, height=135, width=250,
                              margin=dict(l=45, r=10, b=15, t=20))
         st.plotly_chart(fig_sv)
         st.markdown(html_card_footer7, unsafe_allow_html=True)
@@ -642,7 +642,7 @@ with st.beta_container():
                     {'range': [0, 1], 'color': '#FF4136'},
                     {'range': [1, 1.5], 'color': '#3D9970'}]}))
 
-        fig_cv.update_layout(paper_bgcolor="#fbfff0", font={'color': "#008080", 'family': "Arial"}, height=135, width=215,
+        fig_cv.update_layout(paper_bgcolor="#fbfff0", font={'color': "#008080", 'family': "Arial"}, height=135, width=250,
                              margin=dict(l=45, r=10, b=15, t=20))
         st.plotly_chart(fig_cv)
         st.markdown(html_card_footer6, unsafe_allow_html=True)
@@ -662,7 +662,7 @@ with st.beta_container():
                 'steps': [
                     {'range': [0, 1], 'color': '#FF4136'},
                     {'range': [1, 1.5], 'color': '#3D9970'}]}))
-        fig_sv.update_layout(paper_bgcolor="#fbfff0", font={'color': "#008080", 'family': "Arial"}, height=135, width=215,
+        fig_sv.update_layout(paper_bgcolor="#fbfff0", font={'color': "#008080", 'family': "Arial"}, height=135, width=250,
                              margin=dict(l=45, r=10, b=15, t=20))
         st.plotly_chart(fig_sv)
         st.markdown(html_card_footer7, unsafe_allow_html=True)
@@ -674,7 +674,18 @@ with st.beta_container():
     with col7:
         st.write("")
 
-html_br="""
+html_line="""
 <br>
+<br>
+<br>
+<br>
+<hr style= "  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1.5px;">
+<p style="color:Gainsboro; text-align: right;">By: larryprato@gmail.com</p>
 """
-st.markdown(html_br, unsafe_allow_html=True)
+st.markdown(html_line, unsafe_allow_html=True)
